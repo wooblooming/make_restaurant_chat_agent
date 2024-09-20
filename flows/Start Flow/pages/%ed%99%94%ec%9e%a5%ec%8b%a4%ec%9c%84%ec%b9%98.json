@@ -1,0 +1,72 @@
+{
+  "name": "eafc31a7-0046-4c8e-b29d-b331eb99d8c7",
+  "displayName": "화장실위치",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "items": [ {
+            "description": "내부 검토 자료 안내",
+            "title": "화장실"
+          } ],
+          "title": "👉화장실 위치 FAQ👈",
+          "type": "list"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "accessibilityText": "Product Image",
+          "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/toilet.png",
+          "type": "image"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "text": [ "안녕하세요! 화장실 이용에 대한 안내를 드리겠습니다. 😊", "🟥예시입니다🟥", "", "🚻 위치", "화장실은 상가 안 계단 반 층 위에 있습니다.", "입구를 지나 오른쪽 계단을 이용해 반 층만 올라가시면 됩니다.", "", "🚻 이용 방법", "화장실은 잠금장치가 되어 있으니, ", " '3634#'를 입력하신 후 문을 열어주세요.", "", "🚻 주의 사항", "화장실 내 휴지가 비치되어 있지 않으니,", "휴지는 미리 챙겨 가시기 바랍니다." ],
+          "type": "description"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "event": {
+              "name": "back"
+            },
+            "text": "\u003c HOME \u003e",
+            "type": "button"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "back.home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "back.title",
+    "name": "f2b3c100-5193-41f6-b24e-bc2eee5c5eab"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "back.title",
+    "event": "back",
+    "triggerFulfillment": {
+    
+    },
+    "name": "8d3f8801-ec73-413f-8103-a8e1ab2a94e7"
+  } ]
+}

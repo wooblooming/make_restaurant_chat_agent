@@ -1,0 +1,1849 @@
+{
+  "name": "8baf4ab3-6e98-4c00-b182-9f42146404eb",
+  "displayName": "Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EC%9D%B8.jpeg",
+            "type": "image"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "actionLink": "https://map.naver.com/p/entry/place/1861243742?c=15.00,0,0,0,dh\u0026placePath=/booking",
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/FANCY_BAGEL/naver.jpeg"
+              }
+            },
+            "subtitle": "네이버 주문하러 가기",
+            "title": "만들다 레스토랑",
+            "type": "info"
+          }, {
+            "actionLink": "https://app.catchtable.co.kr/ct/shop/make_restaurant",
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EC%BA%90%EC%B9%98%ED%85%8C%EC%9D%B4%EB%B8%94.png"
+              }
+            },
+            "subtitle": "캐치테이블 주문하러 가기",
+            "title": "만들다 레스토랑",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "안녕하세요", "만들다 레스토랑 봇입니다!😁" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "문의하실 내용을 간단히", "입력하시거나 아래 버튼을", "눌러주세요👇" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "1️⃣ 추천 메뉴"
+            }, {
+              "text": "2️⃣ 주문 조리시간"
+            }, {
+              "text": "3️⃣ 운영 시간(Break Time)"
+            }, {
+              "text": "4️⃣ 화장실 위치"
+            }, {
+              "text": "5️⃣ 이벤트 확인"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "ae2b66b2-3e1c-4965-af3d-a10bbde5231a"
+  }, {
+    "intent": "redirect.추천메뉴",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "추천메뉴",
+    "name": "d3da74ca-99c2-472f-b43d-b01e742c4d64"
+  }, {
+    "intent": "redirect.주문조리시간",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "주문조리시간",
+    "name": "55cebef3-d591-4905-a56a-d2481d5f813a"
+  }, {
+    "intent": "redirect.운영시간",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "운영시간",
+    "name": "db584645-734d-4cc0-ad65-7a4d0892f5e9"
+  }, {
+    "intent": "redirect.화장실위치",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "화장실위치",
+    "name": "c155415e-709f-4ccd-a19a-9eaefa5caa1a"
+  }, {
+    "intent": "redirect.이벤트확인",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "이벤트확인",
+    "name": "70dd8646-2e3c-45fc-86ba-d8a95cdd404e"
+  }, {
+    "intent": "메뉴보기.tomatao base",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "tomato base",
+    "name": "27e9b073-5ffe-485e-8a7e-7a83a98bdce0"
+  }, {
+    "intent": "메뉴보기.cream base",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "cream base",
+    "name": "bf5c3a1d-0441-4eef-9d8a-5359509cc9e0"
+  }, {
+    "intent": "메뉴보기.special food",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "special food",
+    "name": "4a0b5e72-d78b-42a8-b9cb-ec1dc3a6d650"
+  }, {
+    "intent": "메뉴보기.oil base",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "oil base",
+    "name": "c0e16ee9-c3c5-49c7-ae42-0cdc8a1520cb"
+  }, {
+    "intent": "메뉴보기.side",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "side",
+    "name": "0920f4dc-f52d-4b8d-b5a4-72cc86514712"
+  }, {
+    "intent": "메뉴보기.drink",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "아메리카노 + 플레인베이글 - 3,500원", "아메리카노 + 스페셜베이글 - 3,800원", "카페라떼 + 플레인베이글 - 4,100원", "카페라떼 + 스페셜베이글 - 4,400원", "논커피or에이드 + 플레인베이글 - 4,500원", "논커피or에이드 + 스페셜베이글 - 4,900원", "", "▪ 커피류 변경 시 +300원", "▪ 에이드류 스무디로 변경시 +300원" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "🥯 베이글"
+            }, {
+              "text": "☕ Coffee"
+            }, {
+              "text": "🍹 None-Coffee"
+            }, {
+              "text": "🍸 에이드"
+            }, {
+              "text": "🧋 스무디\u0026주스"
+            }, {
+              "text": "🫖 Tea"
+            }, {
+              "text": "🎂 세트메뉴"
+            }, {
+              "text": "\u003c 뒤로 \u003e"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "drink",
+    "name": "70d5facb-443f-4edf-9139-65c983054dea"
+  }, {
+    "intent": "back.메뉴",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "추천메뉴",
+    "name": "6679b115-2456-4638-a722-d01813e92eae"
+  }, {
+    "intent": "포카치아 샌드위치.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉포카치아 샌드위치👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 브런치 메뉴 입니다", "🪙가격 : 17,000원", "갓 구운 빵으로 수비드한 잠봉햄과 고소한", "루꼴라가 만나 짭쪼롬하면서 고소한 브런치", "🔸구성 : 포카치아 샌드위치, 에그스크램블, 샐러드", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "branch",
+    "name": "a6945e37-cec3-4b24-9ecf-e7d10a207964"
+  }, {
+    "intent": "프렌치 토스트.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉프렌치 토스트👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 브런치 메뉴 입니다", "🪙가격 : 17,000원", "달걀물을 입힌 식빵에 만들다의 딸기청과", "고소한 생크림이 올라간 달콤새콤한 브런치", "🔸구성 : 에그토스트, 샐러드, 소시지, 감자튀김", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "branch",
+    "name": "97f64233-4ad7-4431-b70c-3555fe2b2a0f"
+  }, {
+    "intent": "토마토 미트볼.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉토마토 미트볼👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 브런치 메뉴 입니다", "🪙가격 : 17,000원", "마녀의 항아리에서 만든 토마토소스와", "직접 빚은 미트볼로 만들어진 풍성한 브런치", "🔸구성 : 미트볼 두덩이, 샐러드, 빵조각, 감자튀김", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "branch",
+    "name": "d5e87707-4fe2-4630-b5a1-ca7bcf5d891f"
+  }, {
+    "intent": "수비드 스테이크.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉수비드 스테이크👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 SPECIAL FOOD 입니다", "", "🔸 수비드 스테이크(130~160g)", "🪙가격 : 24,000원", "", "🔸 수비드 스테이크(260~280g)", "🪙가격 : 45,000원", "", "직접 고기손질부터 수비드까지 만들다가 책임지고 만드는 스테이크", "만들다에 오시면 드셔보셔야 하는 스테이크", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "special food",
+    "name": "5e71a3a7-c273-4a6a-9265-84031b7fe677"
+  }, {
+    "intent": "트러플크림뇨끼.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉트러플크림뇨끼👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 SPECIAL FOOD 입니다", "🪙가격 : 22,000원", "반죽부터 성형까지 현지 이탈리아인이 먹고 엄지척 한 만들다 뇨끼", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "special food",
+    "name": "ab0953a4-9438-4b62-a69c-b5fc2d8c342b"
+  }, {
+    "intent": "감바스.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉감바스👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 SPECIAL FOOD 입니다", "🪙가격 : 24,000원", "직접 만드는 포카치아빵과 만들다의 오일소스로 만들어지는 감바스", "", "🔸면이 있어서 면 먼저 드시고 빵과 드시면 맛있어요", "🔸매콤해요, 맵기 조절 가능", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "special food",
+    "name": "d17b9527-74c9-4f8d-873b-4e2adc574d2c"
+  }, {
+    "intent": "에그인헬.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉에그인헬👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 SPECIAL FOOD 입니다", "🪙가격 : 24,000원", "만들다 토마토소스에 계란, 햄, 베이컨 등 각종 야채가 풍덩~", "", "🔸면이 있어서 면 먼저 드시고 빵과 드시면 맛있어요", "🔸매콤해요, 맵기 조절 가능", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "special food",
+    "name": "8e01770c-7af9-4604-8317-1bb2ca13245f"
+  }, {
+    "intent": "엔초비 오일 파스타.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉엔초비 오일 파스타👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Oil Base의 PASTA 입니다", "", "🪙가격 : 18,000원", "서양멸치과 엔초비가 들어가 비리지 않고 고소해요", "", "🔸오일종류는 기본적으로 매워요. 안맵게 요청 가능하니 말씀주세요", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "oil base",
+    "name": "350377f7-69e5-46ae-8101-3447495e7ce1"
+  }, {
+    "intent": "굴콩피 오일 파스타.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉굴콩피 오일 파스타👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Oil Base의 PASTA 입니다", "", "🪙가격 : 18,500원", "수비드한 굴로 두 번 익혀 만들어져서 식중독 걱정 없어요", "", "🔸오일종류는 기본적으로 매워요. 안맵게 요청 가능하니 말씀주세요", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "oil base",
+    "name": "6922820b-4735-4673-8668-1f2987176d88"
+  }, {
+    "intent": "알리오 올리오 오일 파스타.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉알리오 올리오 오일 파스타👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Oil Base의 PASTA 입니다", "", "🪙가격 : 17,000원", "기본적인 오일 파스타", "", "🔸오일종류는 기본적으로 매워요. 안맵게 요청 가능하니 말씀주세요", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "oil base",
+    "name": "a4021127-edbe-4f98-ac22-2e43f508e1f6"
+  }, {
+    "intent": "명란새우 오일 파스타.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉명란새우 오일 파스타👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Oil Base의 PASTA 입니다", "", "🪙가격 : 18,500원", "명란젓과 새우가 들어가요. 다른 오일파스타보다 조금 짤 수 있어요 ", "", "🔸오일종류는 기본적으로 매워요. 안맵게 요청 가능하니 말씀주세요", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "oil base",
+    "name": "c0769a86-0a26-41f0-822a-fe736dc2a465"
+  }, {
+    "intent": "만들다 샐러드 파스타.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉만들다 샐러드 파스타👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Oil Base의 SPECIAL PASTA 입니다", "", "🪙가격 : 18,500원", "스트라치아텔라 치즈 토핑으로 각종 야채와 먹는 냉파스타", "", "🔸오일종류는 기본적으로 매워요. 안맵게 요청 가능하니 말씀주세요", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "oil base",
+    "name": "50edd7cf-2006-4c47-b872-89cf34ef587a"
+  }, {
+    "intent": "만들다 정통 까르보나라.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉만들다 정통 까르보나라👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Oil Base의 SPECIAL PASTA 입니다", "", "🪙가격 : 18,500원", "크림이 들어가지 않고 노른자로 만들어지는 정통까르보나라", "관찰레가 호불호가 있어 베이컨으로 만들어집니다", "", "🔸오일종류는 기본적으로 매워요. 안맵게 요청 가능하니 말씀주세요", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "oil base",
+    "name": "654d434e-2c84-4b28-95a0-fc55ac3109ca"
+  }, {
+    "intent": "루꼴라 잠봉 피자.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉루꼴라 잠봉 피자👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Oil Base의 PIZZA 입니다", "", "🪙가격 : 19,500원", "직접 만든 잠봉으로 루꼴라와 바질페스토로 만들어집니다", "", "🔸오일종류는 기본적으로 매워요. 안맵게 요청 가능하니 말씀주세요", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "oil base",
+    "name": "f546aa0b-1267-46d5-afed-ba51c1ffdc76"
+  }, {
+    "intent": "베이컨크림 파스타.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉베이컨크림 파스타👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Cream Base의 PASTA 입니다", "", "🪙가격 : 18,000원", "만들다의 크림소스로 베이컨이 들어간 파스타", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "cream base",
+    "name": "7a9d29ed-9acd-4113-9c96-e689e298dd59"
+  }, {
+    "intent": "굴콩피 크림 파스타.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉굴콩피 크림 파스타👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Cream Base의 PASTA 입니다", "", "🪙가격 : 19,000원", "수비드한 굴로 두 번 익혀 만들어져서 식중독 걱정 없어요", "", "🔸맵기 1단계", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "cream base",
+    "name": "f573e252-d1a5-4e85-80bb-72475a0ea307"
+  }, {
+    "intent": "미트 크림 파스타.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉미트 크림 파스타👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Cream Base의 PASTA 입니다", "", "🪙가격 : 18,000원", "고기볶음이 듬뿍 들어가 단짠 고소한 맛을 느낄 수 있어요", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "cream base",
+    "name": "3b6388e5-fe0d-4ce6-8f1e-cb40784244c1"
+  }, {
+    "intent": "스피니치 크림파스타.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉스피니치 크림파스타👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Cream Base의 PASTA 입니다", "", "🪙가격 : 18,000원", "남해시금치로 달짝지근해 시금치 싫어하는 분도 맛있게 드실 수 있어요", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "cream base",
+    "name": "1670e8be-49a3-424a-8d91-1d8f252fa797"
+  }, {
+    "intent": "해산물 크림파스타.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉해산물 크림파스타👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Cream Base의 PASTA 입니다", "", "🪙가격 : 19,500원", "고급 재료인 가리비 관자와 새우, 조개 등이 들어가는 파스타 ", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "cream base",
+    "name": "7a18f1d0-4381-4179-a32f-3fecf76347a2"
+  }, {
+    "intent": "스파이시 베이컨 크림 리소또.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉스파이시 베이컨 크림 리소또👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Cream Base의 RISOTTO 입니다", "", "🪙가격 : 19,000원", "각종 야채와 베이컨이 들어간 리소또", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "cream base",
+    "name": "7d9975cc-5935-42e8-8768-766d2319d868"
+  }, {
+    "intent": "트러플 양송이 크림 리소또.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉트러플 양송이 크림 리소또👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Cream Base의 RISOTTO 입니다", "", "🪙가격 : 19,000원", "양송이가 듬뿍 들어가 트러플 오일이 뿌려지는 리소또", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "cream base",
+    "name": "6d194543-7efb-4c65-a38b-eff12735d55d"
+  }, {
+    "intent": "베이컨 어니언 피자.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉베이컨 어니언 피자👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Cream Base의 PIZZA 입니다", "", "🪙가격 : 18,000원", "베이컨과 양파 슬라이스가 올라간 피자", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "cream base",
+    "name": "4e85b3f2-f361-4798-a013-21fdce8cd8a9"
+  }, {
+    "intent": "고르곤 졸라 피자.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉고르곤 졸라 피자👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Cream Base의 PIZZA 입니다", "", "🪙가격 : 18,000원", "고르곤졸라 치즈를 꿀에 직어 먹는 피자 ", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "cream base",
+    "name": "4caee590-9905-432d-ba97-83d1adef28fc"
+  }, {
+    "intent": "스트라치아텔라 치즈 토마토 파스타.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉스트라치아텔라 치즈 토마토 파스타👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Tomato Base의 PASTA 입니다", "", "🪙가격 : 18,000원", "기본 토마토소스에 치즈가 토핑으로 올라가요", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "tomato base",
+    "name": "93cb82bb-b128-4d48-b481-ae6ae75ba09a"
+  }, {
+    "intent": "만들다 미트볼 토마토 파스타.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉만들다 미트볼 토마토 파스타👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Tomato Base의 PASTA 입니다", "", "🪙가격 : 18,000원", "큰 미트볼 두 덩이가 올라가요(돼지 50%, 소고기 50%)", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "tomato base",
+    "name": "194dec28-10c8-4a83-a24c-6457449a4d66"
+  }, {
+    "intent": "스파이시 빼쉐 토마토 파스타.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉스파이시 빼쉐 토마토 파스타👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Tomato Base의 PASTA 입니다", "", "🪙가격 : 19,000원", "매운 국물에 새우, 조개, 관자가 들어간 해물 파스타", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "tomato base",
+    "name": "ee0d31ea-bcab-40a0-8bc3-999745cb2beb"
+  }, {
+    "intent": "해산물 토마토 파스타.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉해산물 토마토 파스타👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Tomato Base의 PASTA 입니다", "", "🪙가격 : 19,000원", "고급재료인 가리비 관자와 새우, 조개가 들어가요 ", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "tomato base",
+    "name": "3a96c506-7f16-45da-a343-ce2d61148bcf"
+  }, {
+    "intent": "볼로네제 토마토 리소또.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉볼로네제 토마토 리소또👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Tomato Base의 RISOTTO 입니다", "", "🪙가격 : 19,000원", "양념고기와 함께 볶아지는 리소또", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "tomato base",
+    "name": "d1f2b883-8c43-4f27-85d3-a86684a90fe6"
+  }, {
+    "intent": "아보카도 에그 스크램블 토마토 리소또.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉아보카도 에그 스크램블 토마토 리소또👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Tomato Base의 RISOTTO 입니다", "", "🪙가격 : 19,500원", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "tomato base",
+    "name": "1cb40297-c7c3-4017-baa4-f8101edca255"
+  }, {
+    "intent": "불고기 양송이 토마토피자.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉불고기 양송이 토마토피자👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Tomato Base의 PIZZA 입니다", "", "🪙가격 : 17,500원", "불고기, 양파슬라이스, 양송이, 모짜렐라치즈, 블랙올리브", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "tomato base",
+    "name": "aa438bb8-7244-4b13-9593-2b825aa8e9ef"
+  }, {
+    "intent": "바질페스토 토마토 피자.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉바질페스토 토마토피자👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Tomato Base의 PIZZA 입니다", "", "🪙가격 : 17,500원", "만들다의 바질페스토, 스트라치아텔라치즈, 모짜렐라치즈 ", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "tomato base",
+    "name": "382d3e8d-d8a1-42a8-80a8-a4a752d73baa"
+  }, {
+    "intent": "수비드 닭다리살 샐러드.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉수비드 닭다리살 샐러드👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Side의 샐러드 입니다", "", "🪙가격 : 10,500원", "수비드한 부드러운 닭다리살 토핑으로 매콤달콤한 소스로 만들어져요", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "side",
+    "name": "54b53f27-35d0-4321-b8c9-101296ecedd5"
+  }, {
+    "intent": "큐브스테이크 샐러드.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉큐브스테이크 샐러드👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Side의 샐러드 입니다", "", "🪙가격 : 10,500원", "직접 손질한 부채살로 만들어져요. 스테이크 고기가 살짝 매워요", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "side",
+    "name": "1dc3b3c4-a876-42d7-8959-f02c093b3b81"
+  }, {
+    "intent": "스트라치아텔라 샐러드.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉스타라치아텔라 샐러드👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Side의 샐러드 입니다", "", "🪙가격 : 10,500원", "직접 만든 치즈가 토핑으로 올라가요. 토마토와 같이 먹으면 맛있어요", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "side",
+    "name": "d2efa581-abbb-4d87-b41c-448ea95be720"
+  }, {
+    "intent": "치킨텐더 샐러드.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉치킨텐더 샐러드👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Side의 샐러드 입니다", "", "🪙가격 : 9,000원", "매콤한 소스로 만들어져요", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "side",
+    "name": "c7f88d05-d858-4252-a0ae-b4345bf10adb"
+  }, {
+    "intent": "케이준 감자튀김.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉케이준 감자튀김👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Side의 기타메뉴 입니다", "", "🪙가격 : 6,500원", "기본 간이 되어있는 감자튀김", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "side",
+    "name": "dd1cca5e-5b17-4e66-8764-9c57e8aa595c"
+  }, {
+    "intent": "후식빙수.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉후식빙수👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Side의 기타메뉴 입니다", "", "🪙가격 : 7,500원", "물눈꽃빙수에 우유, 팥, 미숫가루가 올라가져요 ", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "side",
+    "name": "12f0ce01-c2a7-4a50-a412-222cd0db2434"
+  }, {
+    "intent": "아메리카노.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉아메리카노👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Drink의 커피메뉴 입니다", "", "🪙가격 : 4,000원", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "drink",
+    "name": "0fe86c88-fc89-4e07-801d-74bf75b243eb"
+  }, {
+    "intent": "카페라떼.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉카페라떼👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Drink의 커피메뉴 입니다", "", "🪙가격 : 4,500원", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "drink",
+    "name": "bb6e1bdd-7e35-4cf4-8f11-61d73ea62d4a"
+  }, {
+    "intent": "만들다라떼.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉만들다라떼👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Drink의 커피메뉴 입니다", "", "🪙가격 : 5,500원", "식물성 아몬드 우유와 미숫가루 커피의 조합", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "drink",
+    "name": "ff7dbf4c-6c51-4b6d-9ba8-21cafabada2a"
+  }, {
+    "intent": "만들다크림라떼.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉만들다크림라떼👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Drink의 커피메뉴 입니다", "", "🪙가격 : 6,000원", "동물성 생크림 토핑으로 만들다의 시크릿 파우더로 만들어지는 라떼", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "drink",
+    "name": "df1d4d10-ed2c-42fb-bf5f-c3969d8f82e3"
+  }, {
+    "intent": "레몬에이드.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉레몬에이드👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Drink의 에이드메뉴 입니다", "", "🪙가격 : 6,000원", "직접 만든 수제청으로 만들어져요", "(달기만한 수제청이 아닙니다)", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "drink",
+    "name": "ef9cfeab-08c8-484f-98ea-672a72e9fda6"
+  }, {
+    "intent": "자몽에이드.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉자몽에이드👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Drink의 에이드메뉴 입니다", "", "🪙가격 : 6,000원", "직접 만든 수제청으로 만들어져요", "(달기만한 수제청이 아닙니다)", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "drink",
+    "name": "d50643ab-ba91-44fd-ac67-d853b74c220b"
+  }, {
+    "intent": "후르츠망고에이드.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉후르츠망고에이드👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Drink의 에이드메뉴 입니다", "", "🪙가격 : 6,000원", "직접 만든 수제청으로 만들어져요", "(달기만한 수제청이 아닙니다)", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "drink",
+    "name": "f14cd97a-74d9-4276-ac02-434fc968c06e"
+  }, {
+    "intent": "청귤 에이드.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉청귤에이드(시즌메뉴)👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Drink의 에이드메뉴 입니다", "", "🪙가격 : 6,000원", "직접 만든 수제청으로 만들어져요", "(달기만한 수제청이 아닙니다)", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "drink",
+    "name": "c70ecb25-45de-4ca1-badf-1106d977aef6"
+  }, {
+    "intent": "유자 에이드.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉유자에이드(시즌메뉴)👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Drink의 에이드메뉴 입니다", "", "🪙가격 : 6,000원", "직접 만든 수제청으로 만들어져요", "(달기만한 수제청이 아닙니다)", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "drink",
+    "name": "2ea4392d-46ef-4cec-87ca-f157b35aacd3"
+  }, {
+    "intent": "자몽주스.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉자몽주스👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Drink의 주스메뉴 입니다", "", "🪙가격 : 6,500원", "과일을 직접 갈아드려요", "(과일과 수제청으로 만들어져요)", "시럽 쓰지 않아요!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "drink",
+    "name": "0959bd7d-b352-492e-8779-5b8216b06529"
+  }, {
+    "intent": "망고주스.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉망고주스👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Drink의 주스메뉴 입니다", "", "🪙가격 : 6,500원", "과일을 직접 갈아드려요", "(과일과 수제청으로 만들어져요)", "시럽 쓰지 않아요!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "drink",
+    "name": "73b72f9c-022b-4cba-8551-eb06bc9086f4"
+  }, {
+    "intent": "딸기주스.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉딸기주스👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Drink의 주스메뉴 입니다", "", "🪙가격 : 6,500원", "과일을 직접 갈아드려요", "(과일과 수제청으로 만들어져요)", "시럽 쓰지 않아요!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "drink",
+    "name": "04a8ad21-faab-49fa-8ff0-2398192a9ecc"
+  }, {
+    "intent": "수박주스.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉수박주스(시즌메뉴)👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Drink의 주스메뉴 입니다", "", "🪙가격 : 6,500원", "과일을 직접 갈아드려요", "(과일과 수제청으로 만들어져요)", "시럽 쓰지 않아요!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "drink",
+    "name": "be21d67c-b389-45ad-9416-b87acca07395"
+  }, {
+    "intent": "소주.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉소주👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Drink의 주류 입니다", "", "🪙가격 : 5,000원", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "drink",
+    "name": "be5c36bc-787a-46c7-874d-f63feca8b521"
+  }, {
+    "intent": "산토리생맥주.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉산토리생맥주👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Drink의 주류 입니다", "", "🪙가격 : 8,500원", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "drink",
+    "name": "927f0089-d8dc-4013-9797-687d284686ff"
+  }, {
+    "intent": "한맥생맥주.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉한맥생맥주👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Drink의 주류 입니다", "", "🪙가격 : 7,000원", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "drink",
+    "name": "90d30eda-e91d-4d35-8c21-d1c080ff20f8"
+  }, {
+    "intent": "하이볼.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉하이볼👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/%EB%A9%94%EB%89%B4%EC%B6%94%EA%B0%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🔹 Drink의 주류 입니다", "", "🪙가격 : 7,500 ~ 8,500원", "", "🔸 종류 : 기본/레몬/오미자/유자/청귤", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "drink",
+    "name": "f0cf5d5e-7a4a-4aa8-b199-b8dd60ea527a"
+  }, {
+    "intent": "back.home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "back.title",
+    "name": "cf574d09-92f5-4c02-80b2-4d09eaaf5af3"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "😵 아직 정확히 학습되지 않은 질문입니다", "다음 업데이트에 추가적으로 학습 될 예정입니다!", "", "메인으로 이동해서 궁금한 점을 질문해주시거나 자주 묻는 질문을 클릭 해주세요" ],
+            "type": "description"
+          }, {
+            "options": [ {
+              "event": {
+                "name": "back"
+              },
+              "text": "\u003c HOME \u003e",
+              "type": "button"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "f348e0de-0e87-4fa1-a20b-72e7f8b09f33"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "😵 아직 정확히 학습되지 않은 질문입니다", "다음 업데이트에 추가적으로 학습 될 예정입니다!", "", "메인으로 이동해서 궁금한 점을 질문해주시거나 자주 묻는 질문을 클릭 해주세요" ],
+            "type": "description"
+          }, {
+            "options": [ {
+              "event": {
+                "name": "back"
+              },
+              "text": "\u003c HOME \u003e",
+              "type": "button"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "d03c79b7-dafe-4d3f-b4cc-42739e00a942"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "customConfigKey": "1c234286-2ec3-4265-8cee-1d1fc690cf7e",
+    "multiIntentSettings": {
+    
+    },
+    "languageCode": "ko"
+  } ]
+}

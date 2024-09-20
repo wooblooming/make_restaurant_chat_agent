@@ -1,0 +1,79 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "알레르기에",
+      "auto": true
+    }, {
+      "text": " 대한 성분표를 보여줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "알레르기가",
+      "auto": true
+    }, {
+      "text": " 있는데 어떻게 ",
+      "auto": true
+    }, {
+      "text": "해",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "알레르기에",
+      "auto": true
+    }, {
+      "text": " 대한 정보를 알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "알레르기 성분을 알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "💛 ",
+      "auto": true
+    }, {
+      "text": "알레르기",
+      "auto": true
+    }, {
+      "text": "요인Check",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "💛 알레르기요인 Check",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "💛 알레르기 요인",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "💛 알레르기 요인 Check"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

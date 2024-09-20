@@ -1,0 +1,37 @@
+{
+  "name": "4e9dc5d5-df4c-4df0-98b7-6cc710130a0d",
+  "displayName": "branch",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "포카치아 샌드위치"
+          }, {
+            "text": "프렌치 토스트"
+          }, {
+            "text": "토마토 미트볼"
+          }, {
+            "text": "\u003c 뒤로 \u003e"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "back.메뉴",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "추천메뉴",
+    "name": "856b8e83-c3bd-4ad2-9592-b5c73435c80c"
+  } ]
+}

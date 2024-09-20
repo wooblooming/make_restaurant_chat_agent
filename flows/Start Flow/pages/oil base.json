@@ -1,0 +1,45 @@
+{
+  "name": "67df2adb-6fdc-404b-98a1-d89ebd197e61",
+  "displayName": "oil base",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "엔초비 오일 파스타"
+          }, {
+            "text": "굴콩피 오일 파스타"
+          }, {
+            "text": "알리오 올리오 오일 파스타"
+          }, {
+            "text": "명란새우 오일 파스타"
+          }, {
+            "text": "만들다 샐러드 파스타"
+          }, {
+            "text": "만들다 정통 까르보나라"
+          }, {
+            "text": "루꼴라 잠봉 피자"
+          }, {
+            "text": "\u003c 뒤로 \u003e"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "back.메뉴",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "추천메뉴",
+    "name": "3c8e0ff7-6c86-44c8-ab53-1f99ee2c16a9"
+  } ]
+}

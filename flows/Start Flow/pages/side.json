@@ -1,0 +1,43 @@
+{
+  "name": "8c4af9cb-af92-4167-ae88-3cdc1121808d",
+  "displayName": "side",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "수비드 닭다리살 샐러드"
+          }, {
+            "text": "큐브스테이크 샐러드"
+          }, {
+            "text": "스트라치아텔라 샐러드"
+          }, {
+            "text": "치킨텐더 샐러드"
+          }, {
+            "text": "케이준 감자튀김"
+          }, {
+            "text": "후식빙수"
+          }, {
+            "text": "\u003c 뒤로 \u003e"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "back.메뉴",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "추천메뉴",
+    "name": "84509fda-16b7-41e3-a216-c1d1dc49017b"
+  } ]
+}

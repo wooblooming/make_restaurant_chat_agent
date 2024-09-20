@@ -1,0 +1,67 @@
+{
+  "name": "3ba49d44-7a99-4ec1-b1c2-a5ed54b13eda",
+  "displayName": "back.title",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "1️⃣ 추천 메뉴"
+          }, {
+            "text": "2️⃣ 주문 조리시간"
+          }, {
+            "text": "3️⃣ 운영 시간(Break Time)"
+          }, {
+            "text": "4️⃣ 화장실 위치"
+          }, {
+            "text": "5️⃣ 이벤트 확인"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "redirect.추천메뉴",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "추천메뉴",
+    "name": "b209fc97-89ee-40cb-a2fb-3c7a571f4c3b"
+  }, {
+    "intent": "redirect.주문조리시간",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "주문조리시간",
+    "name": "0532a8fc-b96b-4153-8d7d-cefe810a7833"
+  }, {
+    "intent": "redirect.운영시간",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "운영시간",
+    "name": "c44a7c82-b69e-46a5-8b3b-612b93135ae6"
+  }, {
+    "intent": "redirect.이벤트확인",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "이벤트확인",
+    "name": "f85376c8-e3ae-4051-aaaf-9866d6c10c56"
+  }, {
+    "intent": "redirect.화장실위치",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "화장실위치",
+    "name": "0f708089-6fc9-4c73-aa5f-8ce8cce19cd0"
+  } ]
+}

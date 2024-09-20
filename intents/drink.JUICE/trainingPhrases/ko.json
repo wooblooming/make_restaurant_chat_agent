@@ -1,0 +1,49 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "(",
+      "auto": true
+    }, {
+      "text": "주스",
+      "auto": true
+    }, {
+      "text": ")",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "JUICE",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "JUICE (",
+      "auto": true
+    }, {
+      "text": "주스",
+      "auto": true
+    }, {
+      "text": ")",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "JUICE(",
+      "auto": true
+    }, {
+      "text": "주스",
+      "auto": true
+    }, {
+      "text": ")",
+      "auto": true
+    } ],
+    "repeatCount": 2,
+    "languageCode": "ko"
+  } ]
+}

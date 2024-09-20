@@ -1,0 +1,49 @@
+{
+  "name": "b6a34e9b-c8f8-42d6-b470-70d2eb441df9",
+  "displayName": "cream base",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "베이컨크림 파스타"
+          }, {
+            "text": "굴콩피 크림 파스타"
+          }, {
+            "text": "미트 크림 파스타"
+          }, {
+            "text": "스피니치 크림파스타"
+          }, {
+            "text": "해산물 크림파스타"
+          }, {
+            "text": "스파이시 베이컨 크림 리소또"
+          }, {
+            "text": "트러플 양송이 크림 리소또 "
+          }, {
+            "text": "베이컨 어니언 피자"
+          }, {
+            "text": "고르곤 졸라 피자"
+          }, {
+            "text": "\u003c 뒤로 \u003e"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "back.메뉴",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "추천메뉴",
+    "name": "4c61c813-ec55-4845-8d7b-7aab4c22f461"
+  } ]
+}

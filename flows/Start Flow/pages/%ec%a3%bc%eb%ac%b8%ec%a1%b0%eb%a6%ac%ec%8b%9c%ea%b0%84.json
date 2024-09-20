@@ -1,0 +1,63 @@
+{
+  "name": "01bc183e-d67e-4526-8c39-1f307eaa51d1",
+  "displayName": "주문조리시간",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "items": [ {
+            "description": "내부 검토 자료 안내",
+            "title": "시간"
+          } ],
+          "title": "👉주문 조리 시간 FAQ👈",
+          "type": "list"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "text": [ "안녕하세요! 만들다 레스토랑을 찾아주셔서 감사합니다. 😊", "", "보통 음료 및 커피 조리 시간은 약 5~10분 정도 소요됩니다", "", "🥩 스테이크", "최상의 맛을 위해 고기를 수비드하고 그릴링하는 과정에서", "약 20~30분의 시간이 소요됩니다", "최상의 풍미를 위해 충분한 시간을 양해 부탁드립니다", "", "🍝 파스타", "주문 즉시 신선한 재료로 만들어지며, 크림, 토마토, 오일 등", "다양한 소스를 선택하실 수 있습니다. 약 15~20분이 소요됩니다", "", "🍕 피자", "매장에서 직접 반죽한 도우에 신선한 토핑을 얹어 구워내는 피자는", "약 15~25분이 소요됩니다", "바삭한 크러스트와 풍부한 맛을 위해 조금만 기다려주세요", "", "🥪 브런치 메뉴 (샌드위치,토스트)", "아침과 점심을 풍성하게 즐길 수 있는 브런치 메뉴는", "약 10~15분의 시간이 소요됩니다", "가볍고 맛있는 식사로 하루를 시작하세요!", "🍲 감바스, 뇨끼 등 스페셜 요리", "특별한 요리는 주문과 동시에 조리되어 약 15~25분 정도의 시간이 필요합니다", "깊은 맛과 정성이 담긴 요리를 위해 여유로운 마음으로 기다려주세요", "", "⭕ 주문량에 따라", "주문이 많아지는 바쁜 시간대에는 조리 시간이 조금 더 걸릴 수 있어요.", "", "⭕ 메뉴 수에 따라", "4 ~ 5개 이상의 음료를 주문하시는 경우 조리시간이 조금 더 걸릴 수 있어요." ],
+          "type": "description"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "event": {
+              "name": "back"
+            },
+            "text": "\u003c HOME \u003e",
+            "type": "button"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "back.home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "back.title",
+    "name": "b956c956-5021-4179-aeea-7e411276e2b2"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "back.title",
+    "event": "back",
+    "triggerFulfillment": {
+    
+    },
+    "name": "cc029046-6cb0-427b-a48a-9be21509d238"
+  } ]
+}

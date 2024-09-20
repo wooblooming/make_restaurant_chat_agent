@@ -1,0 +1,102 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "3️⃣",
+      "auto": true
+    }, {
+      "text": " 운영시간(Break Time)",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "3",
+      "auto": true
+    }, {
+      "text": "️",
+      "auto": true
+    }, {
+      "text": "⃣",
+      "auto": true
+    }, {
+      "text": " 운영 시간(Break Time)",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "언제까지 하나요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "가게 문 언제 닫는지 알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "가게가 언제 여는지 알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "이곳",
+      "auto": true
+    }, {
+      "text": "의 운영시간",
+      "auto": true
+    }, {
+      "text": "이",
+      "auto": true
+    }, {
+      "text": " 어떻게 돼?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "운영시간",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "운영 시간",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "운영 시간을 ",
+      "auto": true
+    }, {
+      "text": "알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "3️⃣운영 "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "3️⃣운영시간"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

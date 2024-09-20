@@ -1,0 +1,49 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "(",
+      "auto": true
+    }, {
+      "text": "커피",
+      "auto": true
+    }, {
+      "text": ")",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "COFFEE (",
+      "auto": true
+    }, {
+      "text": "커피",
+      "auto": true
+    }, {
+      "text": ")",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "COFFEE",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "COFFEE(",
+      "auto": true
+    }, {
+      "text": "커피",
+      "auto": true
+    }, {
+      "text": ")",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

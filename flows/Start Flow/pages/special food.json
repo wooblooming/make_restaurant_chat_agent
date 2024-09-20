@@ -1,0 +1,39 @@
+{
+  "name": "cbc67f6d-745c-49fe-b84f-778ee2ed96a1",
+  "displayName": "special food",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "수비드 스테이크"
+          }, {
+            "text": "트러플크림뇨끼"
+          }, {
+            "text": "감바스"
+          }, {
+            "text": "에그인헬"
+          }, {
+            "text": "\u003c 뒤로 \u003e"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "back.메뉴",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "추천메뉴",
+    "name": "3f5cd9d4-38d8-43c0-97a7-75081ebadb03"
+  } ]
+}

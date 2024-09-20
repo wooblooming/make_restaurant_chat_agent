@@ -1,0 +1,314 @@
+{
+  "name": "012f5f9e-ae80-49b5-917c-b9aa9a8f4026",
+  "displayName": "메뉴디테일 Chips",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "메뉴보기.branch",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "🔹포카치아 브런치 - 17,000원", "갓 구운 빵으로 수비드한 잠봉햄과", "고소한 루꼴라가 만나 짭쪼롬하면서 고소한 브런치", "🔸구성 :포카치아 샌드위치, 에그스크램블, 샐러드", "", "🔹프랜치토스트 브런치 - 17,000원", "달걀물을 입힌 식빵에 만들다의 딸기청과", "고소한 생크림이 올라간 달콤새콤한 브런치", "🔸구성 :에그토스트, 샐러드, 소시지, 감자튀김", "", "🔹미트볼 브런치 - 17,000원", "마녀의 항아리에서 만든 토마토소스와", "직접 빚은 미트볼로 만들어진 풍성한 브런치", "🔸구성 :미트볼 두덩이, 샐러드, 빵조각, 감자튀김", "" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "🥪 Brunch"
+            }, {
+              "text": "🥘 Special Food"
+            }, {
+              "text": "🫕 Oil base"
+            }, {
+              "text": "🍝 Tomato base"
+            }, {
+              "text": "🍥 Cream base"
+            }, {
+              "text": "🍟 Side"
+            }, {
+              "text": "🍹 Drink"
+            }, {
+              "text": "\u003c 뒤로 \u003e"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "메뉴디테일 Chips",
+    "name": "bbf1f31b-0860-4985-b0c5-1fed03683eb6"
+  }, {
+    "intent": "메뉴보기.special food",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "🔔SPECIAL FOOD🔔", "", "◾수비드 스테이크(130~160g)", "- 24,000원", "직접 고기손질부터 수비드까지 만들다가 책임지고 만드는 스테이크", "만들다에 오시면 드셔보셔야 하는 스테이크입니다!", "", "◾수비드 스테이크(260~280g)", "- 45,000원", "직접 고기손질부터 수비드까지 만들다가 책임지고 만드는 스테이크", "만들다에 오시면 드셔보셔야 하는 스테이크입니다!", "", "◾트러플크림뇨끼 - 22,000원", "반죽부터 성형까지 현지 이탈리아인이 먹고 엄지척한 만들다 뇨끼", "", "◾감바스 - 24,000원", "직접 만드는 포카치아빵과 만들다의 오일소스로 만들어지는 감바스", "면이 있어서 면 먼저 드시고 빵과 드시면 맛있어요", "매콤해요, 맵기 조절 가능", "", "◾에그인헬 - 24,000원", "만들다 토마토소스에 계란, 햄, 베이컨 등 각종 야채가 풍덩~", "면이 있어서 면 먼저 드시고 빵과 드시면 맛있어요", "매콤해요, 맵기 조절 가능" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "🥪 Brunch"
+            }, {
+              "text": "🥘 Special Food"
+            }, {
+              "text": "🫕 Oil base"
+            }, {
+              "text": "🍝 Tomato base"
+            }, {
+              "text": "🍥 Cream base"
+            }, {
+              "text": "🍟 Side"
+            }, {
+              "text": "🍹 Drink"
+            }, {
+              "text": "\u003c 뒤로 \u003e"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "메뉴디테일 Chips",
+    "name": "a7b4300b-c1ce-4423-ba78-23fcada9cbb4"
+  }, {
+    "intent": "메뉴보기.oil base",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "🔔PASTA🔔", "◾ 엔초비 오일 파스타 - 18,000원", "서양멸치과 엔초비가 들어가 비리지 않고 고소해요.", "", "◾ 굴콩피 오일 파스타 - 18,500원", "수비드한 굴로 두 번 익혀 만들어져서 식중독 걱정 없어요.", "", "◾ 알리오올리오 오일 파스타 - 17,000원", "기본적인 오일 파스타.", "", "◾ 명란새우 오일 파스타 - 18,500원", "명란젓과 새우가 들어가요. 다른 오일파스타보다 조금 짤 수 있어요.", "", "🔔SPECIAL PASTA🔔", "◾ 만들다 샐러드 파스타 - 18,500원", "스트라치아텔라 치즈 토핑으로 각종 야채와 먹는 냉파스타.", "", "◾ 만들다 정통 까르보나라 - 18,500원", "크림이 들어가지 않고 노른자로 만들어지는 정통까르보나라.", "관찰레가 호불호가 있어 베이컨으로 만들어집니다.", "", "🔔PIZZA🔔", "◾ 루꼴라 잠봉 피자 - 19,500원", "직접 만든 잠봉으로 루꼴라와 바질페스토로 만들어집니다." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "🥪 Brunch"
+            }, {
+              "text": "🥘 Special Food"
+            }, {
+              "text": "🫕 Oil base"
+            }, {
+              "text": "🍝 Tomato base"
+            }, {
+              "text": "🍥 Cream base"
+            }, {
+              "text": "🍟 Side"
+            }, {
+              "text": "🍹 Drink"
+            }, {
+              "text": "\u003c 뒤로 \u003e"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "메뉴디테일 Chips",
+    "name": "ce17c7c3-f622-47ef-bd3f-69b573e17c99"
+  }, {
+    "intent": "메뉴보기.tomatao base",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "🔔PASTA🔔", "◾ 스트라치아텔라 치즈 토마토 파스타", "- 18,000원", "기본 토마토소스에 치즈가 토핑으로 올라가요.", "", "◾ 만들다 미트볼 토마토 파스타", "- 18,000원", "큰 미트볼 두 덩이가 올라가요(돼지 50%, 소고기 50%)", "", "◾ 스파이시 빼쉐 토마토 파스타", "- 19,000원", "매운 국물에 새우, 조개, 관자가 들어간 해물 파스타.", "", "◾ 해산물 토마토 파스타 - 19,000원", "고급재료인 가리비 관자와 새우, 조개가 들어가요.", "", "🔔RISOTTO🔔", "◾ 볼로네제 토마토 리소또 - 19,000원", "양념고기와 함께 볶아지는 리소또.", "", "◾ 아보카도 에그 스크램블 토마토 리소또", "- 19,500원", "아보카도와 에그 스크램블이 함께 어우러진 토마토 리소또.", "", "🔔PIZZA🔔", "◾ 불고기 양송이 토마토 피자 - 17,500원", "불고기, 양파슬라이스, 양송이, 모짜렐라치즈, 블랙올리브가 들어간 피자.", "", "◾ 바질페스토 토마토 피자 - 17,500원", "만들다의 바질페스토, 스트라치아텔라치즈, 모짜렐라치즈가 올라간 피자." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "🥪 Brunch"
+            }, {
+              "text": "🥘 Special Food"
+            }, {
+              "text": "🫕 Oil base"
+            }, {
+              "text": "🍝 Tomato base"
+            }, {
+              "text": "🍥 Cream base"
+            }, {
+              "text": "🍟 Side"
+            }, {
+              "text": "🍹 Drink"
+            }, {
+              "text": "\u003c 뒤로 \u003e"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "메뉴디테일 Chips",
+    "name": "06b55569-1591-4e41-ab11-90f52a8aa5dc"
+  }, {
+    "intent": "메뉴보기.cream base",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "🔔PASTA🔔", "◾ 베이컨크림 파스타 - 18,000원", "만들다의 크림소스로 베이컨이 들어간 파스타", "", "◾ 굴콩피 크림 파스타 (맵기 1단계)", "- 19,000원", "수비드한 굴로 두 번 익혀 만들어져서 식중독 걱정 없어요", "", "◾ 미트 크림 파스타 - 18,000원", "고기볶음이 듬뿍 들어가 단짠 고소한 맛을 느낄 수 있어요", "", "◾ 스피니치 크림파스타 - 18,000원", "남해시금치로 달짝지근해 시금치 싫어하는 분도 맛있게 드실 수 있어요", "", "◾ 해산물 크림파스타 - 19,500원", "고급 재료인 가리비 관자와 새우, 조개 등이 들어가는 파스타", "", "🔔RISOTTO🔔", "◾ 스파이시 베이컨 크림 리소또", "- 19,000원", "각종 야채와 베이컨이 들어간 리소또", "", "◾ 트러플 양송이 크림 리소또", "- 19,000원", "양송이가 듬뿍 들어가 트러플 오일이 뿌려지는 리소또", "", "🔔PIZZA🔔", "◾ 베이컨 어니언 피자 - 18,000원", "베이컨과 양파 슬라이스가 올라간 피자.", "", "◾ 고르곤 졸라 피자 - 18,000원", "고르곤졸라 치즈를 꿀에 찍어 먹는 피자." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "🥪 Brunch"
+            }, {
+              "text": "🥘 Special Food"
+            }, {
+              "text": "🫕 Oil base"
+            }, {
+              "text": "🍝 Tomato base"
+            }, {
+              "text": "🍥 Cream base"
+            }, {
+              "text": "🍟 Side"
+            }, {
+              "text": "🍹 Drink"
+            }, {
+              "text": "\u003c 뒤로 \u003e"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "메뉴디테일 Chips",
+    "name": "eb6ba00f-d393-4b88-b1f5-c4ca71f2948e"
+  }, {
+    "intent": "메뉴보기.side",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "🔔PASTA🔔", "◾ 수비드 닭다리살 샐러드", "- 10,500원", "수비드한 부드러운 닭다리살 토핑으로 매콤달콤한 소스로 만들어져요", "", "◾ 큐브스테이크 샐러드 - 10,500원", "직접 손질한 부채살로 만들어져요", "스테이크 고기가 살짝 매워요", "", "◾ 스트라치아텔라 샐러드", "- 10,500원", "직접 만든 치즈가 토핑으로 올라가요. 토마토와 같이 먹으면 맛있어요", "", "◾ 치킨텐더 샐러드 - 9,000원", "매콤한 소스로 만들어져요", "", "🔔ETC🔔", "◾ 케이준 감자튀김 - 6,500원", "기본 간이 되어있는 감자튀김.", "", "◾ 후식빙수 - 7,500원", "물눈꽃빙수에 우유, 팥, 미숫가루가 올라가져요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "🥪 Brunch"
+            }, {
+              "text": "🥘 Special Food"
+            }, {
+              "text": "🫕 Oil base"
+            }, {
+              "text": "🍝 Tomato base"
+            }, {
+              "text": "🍥 Cream base"
+            }, {
+              "text": "🍟 Side"
+            }, {
+              "text": "🍹 Drink"
+            }, {
+              "text": "\u003c 뒤로 \u003e"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "메뉴디테일 Chips",
+    "name": "dc7b7721-fc80-424d-b1f5-df6c8263eaa7"
+  }, {
+    "intent": "메뉴보기.drink",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "🔔COFFEE🔔", "◾ 아메리카노 - 4,000원", "", "◾ 카페라떼 - 4,500원", "", "◾ 만들다라떼 - 5,500원", "식물성 아몬드 우유와 미숫가루 커피의 조합.", "", "◾ 만들다크림라떼 - 6,000원", "동물성 생크림 토핑으로 만들다의 시크릿 파우더로 만들어지는 라떼.", "", "🔔ADE🔔", "◾ 레몬에이드 - 6,000원", "", "◾ 자몽에이드 - 6,000원", "", "◾ 후르츠망고에이드 - 6,000원", "", "◾ 청귤 에이드 (시즌메뉴) - 6,000원", "", "◾ 유자 에이드 (시즌메뉴) - 6,000원", "", "🔔JUICE🔔", "◾ 자몽주스 - 6,500원", "", "◾ 망고주스 - 6,500원", "", "◾ 딸기주스 - 6,500원", "", "◾ 수박주스 (시즌메뉴) - 6,500원", "만들다의 특별 수박주스.", "", "🔔ALCOHOL🔔", "◾ 소주 - 5,000원", "", "◾ 산토리생맥주 - 8,500원", "", "◾ 한맥생맥주 - 7,000원", "", "◾ 하이볼 (기본/레몬/오미자/유자/청귤)", "- 7,500 ~ 8,500원" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "🥪 Brunch"
+            }, {
+              "text": "🥘 Special Food"
+            }, {
+              "text": "🫕 Oil base"
+            }, {
+              "text": "🍝 Tomato base"
+            }, {
+              "text": "🍥 Cream base"
+            }, {
+              "text": "🍟 Side"
+            }, {
+              "text": "🍹 Drink"
+            }, {
+              "text": "\u003c 뒤로 \u003e"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "메뉴디테일 Chips",
+    "name": "66126712-7640-47d5-ab04-17adc205e282"
+  }, {
+    "intent": "back.메뉴",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "추천메뉴",
+    "name": "277caa36-1bf0-4ed2-a310-6a88354d5c23"
+  } ]
+}

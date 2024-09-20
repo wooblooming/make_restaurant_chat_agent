@@ -1,0 +1,47 @@
+{
+  "name": "fcc4e6ab-203b-4fa2-83c9-dcbcdf9d7a2f",
+  "displayName": "tomato base",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "스트라치아텔라 치즈 토마토 파스타"
+          }, {
+            "text": "만들다 미트볼 토마토 파스타"
+          }, {
+            "text": "스파이시 빼쉐 토마토 파스타"
+          }, {
+            "text": "해산물 토마토 파스타"
+          }, {
+            "text": "볼로네제 토마토 리소또"
+          }, {
+            "text": "아보카도 에그 스크램블 토마토 리소또"
+          }, {
+            "text": "불고기 양송이 토마토피자"
+          }, {
+            "text": "바질페스토 토마토 피자 "
+          }, {
+            "text": "\u003c 뒤로 \u003e"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "back.메뉴",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "추천메뉴",
+    "name": "1c4c4722-42c7-404b-8d04-1b453532db8f"
+  } ]
+}

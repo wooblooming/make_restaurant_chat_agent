@@ -1,0 +1,11 @@
+{
+  "name": "2d29dbe1-44ea-4c82-b525-4b630fb6ec9a",
+  "displayName": "추천메뉴",
+  "transitionRoutes": [ {
+    "intent": "메뉴보기.branch",
+    "triggerFulfillment": {
+    
+    },
+    "name": "400dea9c-c90b-4f0f-b514-af60f6a7fc72"
+  } ]
+}

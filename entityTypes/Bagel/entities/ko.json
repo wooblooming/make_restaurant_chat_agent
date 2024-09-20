@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "소금 베이글",
+    "synonyms": [ "소금 베이글", "소금 빵", "소금맛 베이글", "소금베이글", "짠 맛 베이글", "짠 베이글", "소금빵" ],
+    "languageCode": "ko"
+  }, {
+    "value": "플레인 베이글",
+    "synonyms": [ "기본 베이글", "기본 빵", "기본베이글", "플레인 베이글", "기본빵" ],
+    "languageCode": "ko"
+  }, {
+    "value": "블루베리 베이글",
+    "synonyms": [ "블루베리 베이글", "블루베리 빵", "블루베리베이글" ],
+    "languageCode": "ko"
+  }, {
+    "value": "치즈 베이글",
+    "synonyms": [ "치즈 베이글", "치즈베이글", "cheese bagel" ],
+    "languageCode": "ko"
+  } ]
+}

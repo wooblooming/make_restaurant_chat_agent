@@ -1,0 +1,96 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "제일",
+      "auto": true
+    }, {
+      "text": " 맛있는 메뉴가 뭐야?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "인기메뉴가 뭐야?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "제일",
+      "auto": true
+    }, {
+      "text": " 많이 나가는 ",
+      "auto": true
+    }, {
+      "text": "메뉴가 뭐야",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": " 대표 메뉴가 뭐야?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "추천메뉴",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "추천메뉴 알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "추천메뉴",
+      "auto": true
+    }, {
+      "text": "를 알려줄 ",
+      "auto": true
+    }, {
+      "text": "수",
+      "auto": true
+    }, {
+      "text": " 있어?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": " 추천 메뉴 알려줘"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "🩷만들다레스토랑 추천메뉴"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "🩷 만들다레스토랑 추천메뉴"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "🩷  추천메뉴"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

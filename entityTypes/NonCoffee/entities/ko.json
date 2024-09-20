@@ -1,0 +1,35 @@
+{
+  "entities": [ {
+    "value": "초코라떼",
+    "synonyms": [ "초코라떼", "초코라뗴", "초코맛음료", "초콜렛라떼", "쵸코라떼", "쵸콜렛라떼" ],
+    "languageCode": "ko"
+  }, {
+    "value": "제주말차라떼",
+    "synonyms": [ "제주 말차 라떼", "제주말 차라떼", "제주말차라떼" ],
+    "languageCode": "ko"
+  }, {
+    "value": "밀크티",
+    "synonyms": [ "밀크커피", "밀크티", "milk tea" ],
+    "languageCode": "ko"
+  }, {
+    "value": "크림치즈라떼",
+    "synonyms": [ "크림치즈", "크림치즈라떼", "크림치즈커피" ],
+    "languageCode": "ko"
+  }, {
+    "value": "코코넛라떼",
+    "synonyms": [ "코코넛라때", "코코넛라떼", "코코넛음료", "코코넛커피" ],
+    "languageCode": "ko"
+  }, {
+    "value": "콘버터라떼",
+    "synonyms": [ "콘 버터 라떼", "콘 버터라떼", "콘버터라떄", "콘버터라떼" ],
+    "languageCode": "ko"
+  }, {
+    "value": "딸기라떼",
+    "synonyms": [ "딸기라떼", "딸기커피" ],
+    "languageCode": "ko"
+  }, {
+    "value": "피스타치오라떼",
+    "synonyms": [ "피스타치오", "피스타치오 커피", "피스타치오라떼" ],
+    "languageCode": "ko"
+  } ]
+}

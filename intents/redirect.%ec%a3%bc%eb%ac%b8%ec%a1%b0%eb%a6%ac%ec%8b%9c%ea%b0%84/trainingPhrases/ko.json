@@ -1,0 +1,79 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "조리시간",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "조리시간",
+      "auto": true
+    }, {
+      "text": "이",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "얼마나",
+      "auto": true
+    }, {
+      "text": " 걸리나요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "주문 조리시간이",
+      "auto": true
+    }, {
+      "text": " 어떻게 되나요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "조리시간이",
+      "auto": true
+    }, {
+      "text": " 어떻게 되나요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "2️⃣ 주문조리시간",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "2️⃣ 주문 조리시간",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "2",
+      "auto": true
+    }, {
+      "text": "️⃣주문 ",
+      "auto": true
+    }, {
+      "text": "조리",
+      "auto": true
+    }, {
+      "text": "시간",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

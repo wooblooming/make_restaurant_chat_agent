@@ -1,0 +1,77 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "화장실이 어딘지 알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "화장실이",
+      "auto": true
+    }, {
+      "text": " 어디인가요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "화장실",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "화장실 위치",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "4️⃣ 화장실 위치",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "4️⃣ 화장실위치",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "4",
+      "auto": true
+    }, {
+      "text": "️⃣",
+      "auto": true
+    }, {
+      "text": "화장실 위치",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "4",
+      "auto": true
+    }, {
+      "text": "️⃣",
+      "auto": true
+    }, {
+      "text": "화장실",
+      "auto": true
+    }, {
+      "text": "위치",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

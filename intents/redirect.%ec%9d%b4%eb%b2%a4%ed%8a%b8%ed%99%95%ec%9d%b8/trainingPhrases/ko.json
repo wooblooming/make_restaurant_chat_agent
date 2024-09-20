@@ -1,0 +1,82 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "이벤트를",
+      "auto": true
+    }, {
+      "text": " 알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "이달",
+      "auto": true
+    }, {
+      "text": "의 이벤트가 뭐야?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "이벤트",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "5️⃣",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "이벤트",
+      "auto": true
+    }, {
+      "text": " 확인",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "5️⃣ 이벤트확인",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "5",
+      "auto": true
+    }, {
+      "text": "️⃣",
+      "auto": true
+    }, {
+      "text": "이벤트",
+      "auto": true
+    }, {
+      "text": " 확인",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "5",
+      "auto": true
+    }, {
+      "text": "️⃣이벤트",
+      "auto": true
+    }, {
+      "text": "확인",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

@@ -1,0 +1,77 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "💜만들다",
+      "auto": true
+    }, {
+      "text": "레스토랑 메뉴보기",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "💜 만들다레스토랑 메뉴보기",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "메뉴판을 보여줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "메뉴",
+      "auto": true
+    }, {
+      "text": "를 알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": " 메뉴"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "무슨",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "메뉴",
+      "auto": true
+    }, {
+      "text": "가 있어?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": " 메뉴를 보여줘"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "💜 메뉴보기"
+    } ],
+    "repeatCount": 2,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "💜  메뉴보기"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

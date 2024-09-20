@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "레몬차",
+    "synonyms": [ "레몬으로 만든 차", "레몬차", "레몬티" ],
+    "languageCode": "ko"
+  }, {
+    "value": "자몽차",
+    "synonyms": [ "자몽으로만든차", "자몽차", "자몽티" ],
+    "languageCode": "ko"
+  }, {
+    "value": "얼그레이",
+    "synonyms": [ "얼그레이", "얼그레이차", "얼그레이티" ],
+    "languageCode": "ko"
+  }, {
+    "value": "캐모마일",
+    "synonyms": [ "캐모마일", "캐모마일차", "캐모마일티" ],
+    "languageCode": "ko"
+  }, {
+    "value": "아이스티",
+    "synonyms": [ "복숭아아이스티", "아이스티", "Ice tea" ],
+    "languageCode": "ko"
+  } ]
+}

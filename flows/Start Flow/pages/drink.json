@@ -1,0 +1,156 @@
+{
+  "name": "cd84ea9d-87f5-4c04-9614-80cfe20c9b01",
+  "displayName": "drink",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "COFFEE(커피)"
+          }, {
+            "text": "ADE(에이드)"
+          }, {
+            "text": "JUICE(주스)"
+          }, {
+            "text": "ALCOHOL(주류)"
+          }, {
+            "text": "\u003c 뒤로 \u003e"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "back.메뉴",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "추천메뉴",
+    "name": "0771de5b-f321-4142-b717-f61a917b79ec"
+  }, {
+    "intent": "drink.COFFEE",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "아메리카노"
+            }, {
+              "text": "카페라떼"
+            }, {
+              "text": "만들다라떼"
+            }, {
+              "text": "만들다크림라떼"
+            }, {
+              "text": "\u003c 이전으로 \u003e"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "2594842f-6546-49e0-beae-efb3a217e492"
+  }, {
+    "intent": "drink.ADE",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "레몬에이드"
+            }, {
+              "text": "자몽에이드"
+            }, {
+              "text": "후르츠망고에이드"
+            }, {
+              "text": "청귤에이드"
+            }, {
+              "text": "유자에이드"
+            }, {
+              "text": "\u003c 이전으로 \u003e"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "b9835918-e937-432d-87ae-29c279d2b44d"
+  }, {
+    "intent": "drink.JUICE",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "자몽주스"
+            }, {
+              "text": "망고주스"
+            }, {
+              "text": "딸기주스"
+            }, {
+              "text": "수박주스"
+            }, {
+              "text": "\u003c 이전으로 \u003e"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "fbaa1902-387b-4f45-8cc6-4ecf8090289c"
+  }, {
+    "intent": "drink.ALCOHOL",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "소주"
+            }, {
+              "text": "산토리생맥주"
+            }, {
+              "text": "한맥생맥주"
+            }, {
+              "text": "하이볼"
+            }, {
+              "text": "\u003c 이전으로 \u003e"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "f6b4e545-3a9d-4750-abb3-354cb9aa6e1a"
+  }, {
+    "intent": "back.drink",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "drink",
+    "name": "482b637f-fbb9-4f27-b9b5-16ec4c025fb1"
+  } ]
+}

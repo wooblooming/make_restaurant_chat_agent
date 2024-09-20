@@ -1,0 +1,203 @@
+{
+  "name": "b2255b3a-f50e-451c-b0bd-ec394592b7cd",
+  "displayName": "추천메뉴",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "items": [ {
+            "description": "내부 검토 자료 안내",
+            "title": "추천메뉴"
+          } ],
+          "title": "👉추천 메뉴 FAQ👈",
+          "type": "list"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "text": [ "메뉴에 대해서 질문을 해주시거나", "원하는 질문을 클릭 해주세요.😊" ],
+          "type": "description"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "💜 만들다레스토랑 메뉴보기"
+          }, {
+            "text": "🩷 만들다레스토랑 추천메뉴"
+          }, {
+            "text": "💛 알레르기 요인 Check"
+          }, {
+            "text": "\u003c HOME \u003e"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "추천메뉴.만들다레스토랑메뉴보기",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "만들다레스토랑 메뉴판"
+            } ],
+            "title": "👉만들다레스토랑 메뉴판👈",
+            "type": "list"
+          }, {
+            "text": [ "", "만들다레스토랑의 메뉴입니다!" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "menu1 Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/menu1.jpg",
+            "type": "image"
+          }, {
+            "accessibilityText": "menu2 Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/menu2.jpg",
+            "type": "image"
+          }, {
+            "accessibilityText": "menu3 Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/menu3.jpg",
+            "type": "image"
+          }, {
+            "accessibilityText": "menu4 Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/menu4.jpg",
+            "type": "image"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "🥪 Brunch"
+            }, {
+              "text": "🥘 Special Food"
+            }, {
+              "text": "🫕 Oil base"
+            }, {
+              "text": "🍝 Tomato base"
+            }, {
+              "text": "🍥 Cream base"
+            }, {
+              "text": "🍟 Side"
+            }, {
+              "text": "🍹 Drink"
+            }, {
+              "text": "\u003c 뒤로 \u003e"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "메뉴디테일 Chips",
+    "name": "0f71b356-c543-4c8e-9e3c-fe14bf96d3a6"
+  }, {
+    "intent": "추천메뉴.만들다레스토랑추천메뉴",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉이달의 추천메뉴👈",
+            "type": "list"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "만들다의 시그니쳐 근본적인 맛", "🔔수비드 스테이크🔔", "🔔(Oil,Tomato,Cream) 파스타🔔", "", "저희 만들다에서는 100% 수제 홈메이드", "브런치만을 제공합니다!", "300도 고온 전기화덕에서 수제로 만들어지는", "피자와 식전 에피타이저로 좋은 샐러드를 드셔보세요😁" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/make_restaurants/video1.png",
+            "type": "image"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "추천메뉴 Chips",
+    "name": "7c046798-cc6e-4c9e-a0af-04f86b635e07"
+  }, {
+    "intent": "추천메뉴.알레르기요인체크",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "ㄴㄴ"
+            } ],
+            "title": "👉알레르기 유발정보👈",
+            "type": "list"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "🥯🥛 베이글 전 제품", "(알류, 우유, 밀)", "", "🥛 라떼 \u0026 스무디류 전 제품(우유)", "", "🥛 밀크티(우유)", "", "🍑 자두\u0026복숭아에이드(복숭아)", "", "🍑 복숭아\u0026자두스무디(복숭아)" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "추천메뉴 Chips",
+    "name": "f9510845-6b02-49e6-b395-1535b791fec3"
+  }, {
+    "intent": "back.메뉴",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "추천메뉴",
+    "name": "9c498db8-a67a-4ca5-9c47-1d8df21c88e7"
+  }, {
+    "intent": "back.home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "back.title",
+    "name": "a760f8e1-8423-425c-ad52-5f1e3e025569"
+  } ]
+}

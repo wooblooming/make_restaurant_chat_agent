@@ -1,0 +1,63 @@
+{
+  "name": "5c4e2435-5175-43c7-821d-7ebf7289fad7",
+  "displayName": "이벤트확인",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "items": [ {
+            "description": "내부 검토 자료 안내",
+            "title": "이벤트"
+          } ],
+          "title": "👉이벤트 FAQ👈",
+          "type": "list"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "text": [ "🟥예시입니다🟥", "📸 1. 네이버 알림받기 설정 시, 아메리카노 무료 쿠폰을 제공하고 있습니다! 🎉", "", "📸 2. 15,000원 이상 포장 주문 시 1,500원 할인 행사 진행 중입니다! 🎉", "", "고객님께 감사의 마음을 담아 서비스를드리는 이벤트를 진행하고 있습니다", "", "", "고객님의 멋진 사진과 소중한 리뷰로 저희 만들다 레스토랑을", "더 많은 분들에게 알려주세요! 여러분의 많은 참여를 기다립니다.", "감사합니다! 🙏" ],
+          "type": "description"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "event": {
+              "name": "back"
+            },
+            "text": "\u003c HOME \u003e",
+            "type": "button"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "back.home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "back.title",
+    "name": "1aa3db8c-122c-4a59-8c92-a09d787c9c9a"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "back.title",
+    "event": "back",
+    "triggerFulfillment": {
+    
+    },
+    "name": "9336b000-8c5d-41f8-ba11-72d71a89a1cb"
+  } ]
+}

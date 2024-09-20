@@ -1,0 +1,43 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "뒤로 \u003e",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "\u003c 뒤로",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "\u003c",
+      "auto": true
+    }, {
+      "text": "뒤로",
+      "auto": true
+    }, {
+      "text": "\u003e",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "\u003c",
+      "auto": true
+    }, {
+      "text": " 뒤로 ",
+      "auto": true
+    }, {
+      "text": "\u003e",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}
